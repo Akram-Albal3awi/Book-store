@@ -1,0 +1,143 @@
+body {
+    background-color: white;
+    margin: 0;
+}
+
+*{
+    font-family: "Bona Nova", serif;
+}
+
+
+nav {
+    background-image: url("../Images/navImg.png");
+}
+
+
+.navColor{
+    color: white !important;
+    font-size: 20px !important;
+    font-family: "Bona Nova", serif;
+    font-weight: 700;
+    font-style: italic;
+    transition: background-image 0.2s ease-in-out, color 0.2s ease; 
+}
+
+.navColor:hover {
+    background-image: linear-gradient(to right, #CC9600, #FF7700);
+    -webkit-background-clip: text; 
+    -webkit-text-fill-color: transparent; 
+    background-clip: text; 
+    cursor: pointer; 
+}
+
+.container-search {
+    background-image: url("../Images/background.svg");
+    background-size: cover;
+    background-position: center;
+    height: 100vh; 
+    position: relative;
+    padding: 20px; 
+}
+
+.gradient-text {
+    font-size: 43px;
+    font-weight: 600;
+    background-image: linear-gradient(to right, #CC9600, #FF7700);
+    -webkit-background-clip: text;
+    color: transparent;
+    position: relative;
+    transform: translateX(-50%); 
+    z-index: 1; 
+}
+
+.rowSearch {
+    position: relative; 
+    z-index: 0; 
+}
+
+.text-content {
+    position: absolute;
+    z-index: 2; 
+    color: white;
+    font-weight: 400;
+    font-size: 26px;
+    top: 15%; 
+    left: 15%;
+}
+
+/*remove space between p*/
+.text-content p {
+    margin: 0;
+}
+
+.searchDesign{
+    border: 1px solid #CC9600;
+    border-radius: 10px;
+    color: white;
+}
+
+.searchDesign input::placeholder {
+    color: #A59F9F;
+    opacity: 1; 
+}
+
+.btnSearch {
+    color: white; 
+    background-color: #4B330B; 
+    border: none; 
+    border-radius: 10px !important;
+    touch-action: manipulation;
+    margin:5px;
+    position: absolute;
+    left: 60%;
+    top: 6%;
+    width: 39%;
+    height: 70%;
+    transition: all 0.3s ease-in-out; 
+
+}
+
+.btnSearch:hover {
+    background-color: #342A19; 
+    color: white;
+    transform: scale(1.0);
+}
+
+.bookSection{
+    margin-top: 100px;
+}
+
+.statistics{
+    color: #CC9600;
+    font-size: 40px;
+    font-weight: 500;
+}
+
+.stateDesc{
+    color: #CC9600;
+    font-size: 15px;
+}
+
+.ExploerButton {
+    border: 1px solid #CC9600;
+    background-color: transparent;
+    border-radius: 10px;
+    width: 100%;
+    height: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: #CC9600;
+    transition: all 0.3s ease; 
+}
+
+.ExploerButton:hover {
+    background-color: #CC9600;
+    border: 1px solid transparent;
+    color: white;
+    transform: scale(1.05);
+    margin-top: 10px;
+    width: 100%;
+    height: 100%;
+}
+
+
