@@ -9,7 +9,7 @@ body {
 
 
 nav {
-    background-image: url("../Images/navImg.png");
+    background-image: url("./Images/navImg.png");
 }
 
 
@@ -31,7 +31,7 @@ nav {
 }
 
 .container-search {
-    background-image: url("../Images/background.svg");
+    background-image: url("./Images/background.svg");
     background-size: cover;
     background-position: center;
     height: 100vh; 
